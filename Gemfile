@@ -19,6 +19,9 @@ group :test do
   gem 'capybara', '2.1.0.rc1'
   gem 'factory_girl_rails', '4.2.0'
 
+  gem 'cucumber-rails', '1.3.0', :require => false
+  gem 'database_cleaner', '~> 1.0.0.RC1'
+
   # Uncomment these lines on OS X.
   # gem 'rb-fsevent', '0.9.3', :require => false
   # gem 'growl', '1.0.3'
